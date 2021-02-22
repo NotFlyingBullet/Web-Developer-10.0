@@ -1,0 +1,35 @@
+*{
+	box-sizing: border-box;
+}
+.box1{
+	margin-top: 0px;
+	border: 3px;
+	background-color: grey;
+	height: 200px;
+	width: 200px;
+	overflow: auto;
+	opacity: .8;
+	float: left;
+	margin-right: 20px;
+}
+p{
+	margin-top: 80px;
+	margin-left: 20px;
+}
+.box2{
+	position: fixed;
+	background-color: yellow;
+	height: 50px;
+	width: 1200px;
+	overflow: auto;
+	opacity: 0.7;
+	top: 0%;
+	left: 50%;
+	margin-left: -600px;
+}
+h1{
+	text-align: center;
+	border: 2px solid red;
+	width: 100px;
+	margin-left: 50px;
+}
