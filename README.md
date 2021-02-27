@@ -18,3 +18,4 @@
 14 - Подключение шрифтов к сайту  
 [*Practice 2 - Верстка первого экрана*](https://github.com/NotFlyingBullet/Web-Developer-10.0/tree/master/Practice%202/site)------------- [*Открыть сайт*](https://notflyingbullet.github.io/Web-Developer-10.0/Practice%202/site/src/index.html)  
 15 - Псевдоклассы и псевдоэлементы  
+[*Practice 3 - Эффекты при наведении*](https://github.com/NotFlyingBullet/Web-Developer-10.0/tree/master/Practice%203/site)------------ [*Открыть сайт*](https://notflyingbullet.github.io/Web-Developer-10.0/Practice%203/site/src/index.html)  
