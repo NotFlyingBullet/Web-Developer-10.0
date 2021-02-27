@@ -16,5 +16,5 @@
 13 - Адаптивная верстка  
 [*Practice 1 - Верстка шапки*](https://github.com/NotFlyingBullet/Web-Developer-10.0/tree/master/Practice%201/site)---------------------- [*Открыть сайт*](https://notflyingbullet.github.io/Web-Developer-10.0/Practice%201/site/src/index.html)    
 14 - Подключение шрифтов к сайту  
-*Practice 2 - Верстка первого экрана*  
+[*Practice 2 - Верстка первого экрана*](https://github.com/NotFlyingBullet/Web-Developer-10.0/tree/master/Practice%202/site)------------- [*Открыть сайт*](https://notflyingbullet.github.io/Web-Developer-10.0/Practice%202/site/src/index.html)  
 15 - Псевдоклассы и псевдоэлементы  
