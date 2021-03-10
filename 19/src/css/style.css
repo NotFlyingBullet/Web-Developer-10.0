@@ -1,0 +1,47 @@
+/*	https://html5book.ru/css3-animation/
+	
+	Несколько анимаций не должны одновременно использовать одинаковые свойства.
+	В реальных проектах использвать вендорные префиксы или coala.
+	move-название анимациии
+	from откуда to куда;
+	duration время анимации
+*/
+@keyframes move{
+	from{margin-left: 0;}
+	10%{margin-left: 20px;}
+	to{margin-left: 1220px;}
+
+}
+
+.box{
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	animation-name: move;
+	animation-duration: 3s;
+
+	/*ease-in-outlinear  ease cubic-bezier(0,1.84,1,1.22) https://cubic-bezier.com/*/
+	animation-timing-function:linear;
+
+	animation-delay: 1s;
+
+	/* reverse alternate alternate-reverse*/
+	animation-direction: normal;
+
+	animation-iteration-count: 1;/*повторы  1 2 3 infifnite*/
+	animation-fill-mode: forwards;/*останавливать вконце анимации*/
+}
+
+.box-2{
+	text-align: center;
+}
+
+.wow-test{
+	width: 900px;
+	margin: 50px auto;
+}
+
+h2{
+	padding: 20px 0;
+	text-align: center;
+}
