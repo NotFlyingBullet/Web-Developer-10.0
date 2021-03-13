@@ -1,0 +1,13 @@
+section{
+	height: 200vh;
+}
+.text{
+	text-align: center;
+	margin: 2% auto;
+}
+img{
+	margin-top: 30%;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 100px;
+}

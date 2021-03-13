@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/rellax.min.js"></script>
+
+    <link href="css/style2.css" type="text/css" rel="stylesheet">
+    <link rel="icon" href="img/favicon.ico">
+    
+    <title>Rellax js</title>
+  </head>
+  
+  <body>
+
+  	<section class="white">
+  		<div class="text">
+  			<h1>RELLAX JS</h1>
+  			<p>scroll down</p>
+        <img class="rellax" data-rellax-speed="1" src="img/parallax/11.png"  alt="">
+        <img class="rellax" data-rellax-speed="-4" src="img/parallax/12.png" alt="">
+        <img class="rellax" data-rellax-speed="7" src="img/parallax/13.png" alt="">
+  		</div>
+  	</section>
+
+    <script>
+      // Also can pass in optional settings block
+      var rellax = new Rellax('.rellax', {
+        speed: -2,
+        center: false,
+        wrapper: null,
+        round: true,
+        vertical: true,
+        horizontal: false
+      });
+    </script>
+
+  </body>
+
+</html>
