@@ -1,0 +1,9 @@
+<?php if ($f_name=="1"){echo"class='active'";} ?>
+<?php if ($f_name=="2"){echo"class='active'";} ?>
+<?php if ($f_name=="contact"){echo"class='active'";} ?>
+<?php if ($f_name=="portfolio"){echo"class='active'";} ?>
+
+
+<?if ($f_name=="1"){echo "class='active'";} ?>
+
+<? echo " . style='font-size: 2rem;'"?>

@@ -23,8 +23,11 @@
   <body>
 
     <?php
-    include("nav.php");
+    $f_name="home";
+    require_once "nav.php";
     ?>
+
+    
     
     <div class="container">
 

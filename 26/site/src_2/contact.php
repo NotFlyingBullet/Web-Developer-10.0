@@ -23,7 +23,8 @@
   <body>
 
     <?php
-    include("nav.php");
+    $f_name="contact";
+    require_once "nav.php";
     ?>
 
     <div class="container">

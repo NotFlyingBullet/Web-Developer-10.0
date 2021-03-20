@@ -23,15 +23,16 @@
   <body>
 
     <?php
-    $f_name="about";
+    $f_name="portfolio";
     require_once "nav.php";
     ?>
 
     <div class="container">
 
       <div class="starter-template">
-        <h1>About page</h1>
+        <h1>Portfolio page</h1>
         <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+        <a href="#"><?php include("Tel.php") ?></a>
       </div>
 
     </div><!-- /.container -->

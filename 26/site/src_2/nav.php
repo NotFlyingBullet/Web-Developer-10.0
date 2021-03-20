@@ -1,3 +1,4 @@
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -10,12 +11,14 @@
           <a class="navbar-brand" href="index.php">Project name</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
+
           <ul class="nav navbar-nav">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="about.php">About</a></li>
-            <li><a href="contact.php">Contact</a></li>
-            <li><a href="Portfolio.php">Portfolio</a></li>
+
+            <li<?if ($f_name=="home"){echo " . class='active'";} ?>><a href="index.php">Home</a></li>
+            <li<?if ($f_name=="about"){echo " . class='active'";} ?>><a href="about.php">About</a></li>
+            <li<?if ($f_name=="contact"){echo " . class='active'";} ?>><a href="contact.php">Contact</a></li>
+            <li<?if ($f_name=="portfolio"){echo " . class='active'";} ?>><a href="Portfolio.php">Portfolio</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
-    </nav>
+    </nav> 
