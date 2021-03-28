@@ -77,7 +77,7 @@
 		              <label>Ваше имя</label>
 		              <input class="form-input" required type="text">
 		              <label>Номер телефона</label>
-		              <input class="form-input" id="phone" required type="text">
+		              <input class="form-input phone" required type="text">
 		              <button class="form-btn button" type="submit">Оставьте заявку</button>
 		              <small>Подарок в день обращения</small>
 		            </form>
@@ -331,11 +331,11 @@
 							<div class="row">
 								<div class="col-md-6">
 									<label>Ваше имя</label>
-									<input class="form-input" type="text">
+									<input required class="form-input" type="text">
 								</div>
 								<div class="col-md-6">
 									<label>Номер телефона</label>
-									<input class="form-input" type="text">
+									<input required class="form-input phone" type="text">
 								</div>
 							</div>
 							<button class="form-btn button feedback-btn" type="submit">
@@ -640,9 +640,9 @@
 			        </h2>
 			        <form action="#">
 			          	<label>Ваше имя</label>
-			          	<input class="form-input" type="text">
+			          	<input required class="form-input" type="text">
 			          	<label>Номер телефона</label>
-			          	<input class="form-input" type="text">
+			          	<input required="" class="form-input phone" type="text">
 			          	<button class="form-btn button tour-btn" type="submit">
 			         	 	Записаться на просмотр
 			      		</button>
@@ -723,12 +723,12 @@
 					  </h2>
 					  <form class="form" action="#">
 					    <label>Ваше имя</label>
-					    <input class="form-input" type="text">
+					    <input required class="form-input" type="text">
 					    <label>Номер телефона</label>
-					    <input class="form-input" type="text">
+					    <input required class="form-input phone" type="text">
 					    <label>E-Mail</label>
-					    <input class="form-input" type="text">
-						<label>E-Mail</label>
+					    <input required class="form-input" type="text">
+						<label>Message</label>
 						<textarea class="form-textarea" rows="5"></textarea>
 					    <button class="form-btn button" type="submit">Оставьте заявку</button>
 					  </form>
@@ -775,9 +775,9 @@
             <div class="popup-form form">
               <form action="#" form>
               <label>Ваше имя</label>
-              <input class="form-input" type="text">
+              <input required class="form-input" type="text">
               <label>Номер телефона</label>
-              <input class="form-input" type="text">
+              <input required class="form-input phone" type="text">
               <label>Сообщение</label>
               <textarea class="form-input" rows="5"></textarea>
               <button class="form-btn button" type="submit">Оставьте заявку</button>
@@ -800,7 +800,7 @@
 	<script>
 		$(document).ready(function(){
 		  
-		  $("#phone").inputmask({"mask": "+7 (999) 999-99-99"}); //specifying options
+		  $('.phone').inputmask({"mask": "+7 (999) 999-99-99"}); //specifying options
 		  
 		});
 	</script>

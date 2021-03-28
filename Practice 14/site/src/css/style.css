@@ -15,35 +15,43 @@
 }
 /*Colors*/
 /*Animation*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\0000343}}
 .speed-1 {
   -webkit-animation-delay: 0.1s;
           animation-delay: 0.1s;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\0000346}}
 .speed-2 {
   -webkit-animation-delay: 0.2s;
           animation-delay: 0.2s;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\0000349}}
 .speed-3 {
   -webkit-animation-delay: 0.3s;
           animation-delay: 0.3s;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\0000352}}
 .speed-4 {
   -webkit-animation-delay: 0.4s;
           animation-delay: 0.4s;
 }
 /*Basic setting*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\0000357}}
 html {
   font-size: 10px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\0000360}}
 body {
   font-family: 'ProximaNova_reg', sans-serif;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\0000364}}
 button:focus,
 input:focus,
 a:focus,
 textarea:focus {
   outline: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\0000368}}
 .button {
   padding: 1rem 3rem;
   border-radius: 8px;
@@ -55,16 +63,19 @@ textarea:focus {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\0000377}}
 .button:hover {
   cursor: pointer;
   background-color: #e3a103;
 }
 /*Оформление форм*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\0000384}}
 .form {
   /*Поле для ввода*/
   /*Подписи к полям*/
   /*Кнопка оправить заявку*/
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\0000386}}
 .form-input,
 .form-textarea {
   display: block;
@@ -74,6 +85,7 @@ textarea:focus {
   width: 100%;
   padding: 1.5rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\0000395}}
 .form label {
   font-size: 1.3rem;
   position: absolute;
@@ -83,6 +95,7 @@ textarea:focus {
   background-color: #ffffff;
   padding: 0.5rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003104}}
 .form-btn {
   display: block;
   height: 5rem;
@@ -90,37 +103,46 @@ textarea:focus {
   font-size: 1.6rem;
 }
 /*Typography*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003113}}
 section {
   padding: 10rem 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003116}}
 .section-header {
   margin: 2rem 0 10rem;
   text-align: center;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003117}}
 .section-header-light {
   color: #ffffff;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003120}}
 .section-header h2 {
   font-family: 'ProximaNova_bold', sans-serif;
   font-size: 3.6rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003124}}
 .section-header p {
   font-size: 1.4rem;
 }
 /*Main*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003132}}
 .header {
   height: 7rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003135}}
 .wrap {
   display: table;
   width: 100%;
   height: 7rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003139}}
 .wrap-block {
   display: table-cell;
   vertical-align: middle;
   text-align: right;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003145}}
 .main {
   padding: 3rem 0 5rem;
   background: #ffffff url(../img/mainbg.jpg) center center no-repeat;
@@ -130,10 +152,12 @@ section {
   /*Оплата по факту*/
   /*Главная форма*/
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003149}}
 .main-content {
   margin-top: 7rem;
   /*Главный заголовок*/
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003152}}
 .main-content h1 {
   margin-top: 0;
   line-height: 1.45;
@@ -142,10 +166,12 @@ section {
   font-size: 4rem;
   text-transform: uppercase;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003162}}
 .main-subtitle {
   margin-bottom: 4rem;
   font-size: 2.4rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003167}}
 .main span {
   display: inline-block;
   padding: 3rem 5rem;
@@ -155,10 +181,12 @@ section {
   text-align: center;
   /*Цифра 300*/
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003175}}
 .main span strong {
   font-size: 3rem;
   font-family: 'ProximaNova_bold', sans-serif;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003181}}
 .main-trigger {
   display: block;
   font-size: 2.2rem;
@@ -166,6 +194,7 @@ section {
   margin-top: 3rem;
   font-family: 'ProximaNova_bold', sans-serif;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003189}}
 .main-form {
   background-color: #ffffff;
   padding: 4rem 5rem;
@@ -173,17 +202,21 @@ section {
   /*Заголовок формы*/
   /*Подпись под кнопкой*/
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003194}}
 .main-form-header {
   margin-bottom: 4rem;
   font-size: 1.75rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003197}}
 .main-form-header strong {
   font-size: 2rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003202}}
 .main-form small {
   display: block;
   margin-top: 1.5rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003209}}
 .phone-link {
   display: inline-block;
   font-family: 'ProximaNova_bold', sans-serif;
@@ -193,34 +226,42 @@ section {
   font-size: 2rem;
   color: #1a1820;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003218}}
 .phone-link:hover {
   text-decoration: none;
 }
 /*Оформление секции с преимуществами*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003225}}
 .features-block {
   text-align: center;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003227}}
 .features-block h3 {
   font-size: 2rem;
   font-family: 'ProximaNova_bold', sans-serif;
   margin-bottom: 3rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003232}}
 .features-block p {
   display: inline-block;
   width: 80%;
   font-size: 1.4rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003238}}
 .features-img {
   margin-bottom: 3rem;
   height: 8rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003241}}
 .features-img img {
   display: block;
   margin: 0 auto;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003247}}
 .slick-active {
   outline: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003250}}
 .arrow {
   position: absolute;
   top: 50%;
@@ -231,27 +272,33 @@ section {
   height: 2rem;
   border: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003259}}
 .prev {
   left: 0;
   background: url(../img/features/arrow-left.svg) center no-repeat;
   background-size: 70%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003264}}
 .next {
   right: 0;
   background: url(../img/features/arrow-right.svg) center no-repeat;
   background-size: 70%;
 }
 /*Секция с ценами*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003271}}
 .price {
   background: #00bf00 url("../img/price/pricesbg.jpg") center;
   /*Карточки с тарифами*/
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003273}}
 .price-header-btn {
   margin-top: 2.5rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003277}}
 .price-button {
   text-align: right;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003280}}
 .price-block {
   display: block;
   min-height: 50rem;
@@ -261,17 +308,20 @@ section {
           box-shadow: 7px 12px 21px 0px rgba(0, 0, 0, 0.17);
   text-align: center;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003281}}
 .price-block img {
   display: inline-block;
   text-align: center;
   margin-bottom: 2rem;
   max-width: 26rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003293}}
 .price-block h4 {
   margin: 3rem 0rem;
   font-size: 1.9rem;
   font-family: 'ProximaNova_bold', sans-serif;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003299}}
 .price-list {
   list-style: none;
   padding: 0;
@@ -279,6 +329,7 @@ section {
   font-size: 1.6rem;
   line-height: 2.3rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003306}}
 .price-list li:before {
   content: "";
   display: inline-block;
@@ -289,6 +340,7 @@ section {
   vertical-align: top;
   margin-right: 1rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003318}}
 .price-tag {
   display: block;
   margin-bottom: 2rem;
@@ -296,6 +348,7 @@ section {
   font-family: 'ProximaNova_bold', sans-serif;
 }
 /*Секция с отзывами*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003327}}
 .feedback {
   position: relative;
   /*min-height: 1060px;*/
@@ -304,28 +357,35 @@ section {
   background-size: cover;
   /*Форма обратной связи*/
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003333}}
 .feedback-prev-btn {
   left: -4rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003336}}
 .feedback-next-btn {
   right: -4rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003339}}
 .feedback-slider {
   padding: 5rem 6rem;
   background-color: #ffffff;
   -webkit-box-shadow: 6px 10px 18px 0px rgba(0, 0, 0, 0.11);
           box-shadow: 6px 10px 18px 0px rgba(0, 0, 0, 0.11);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003343}}
 .feedback-slider p {
   font-size: 1.6rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003346}}
 .feedback-slider .media {
   font-size: 1.4rem;
   margin-top: 3rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003349}}
 .feedback-slider .media h4 {
   font-family: 'ProximaNova_bold', sans-serif;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003353}}
 .feedback-slider-btn {
   position: absolute;
   top: 50%;
@@ -336,9 +396,11 @@ section {
   background-color: #00bf00;
   border: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003361}}
 .feedback-slider-btn img {
   width: 50%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003366}}
 .feedback-text {
   position: relative;
   margin-top: 2rem;
@@ -346,6 +408,7 @@ section {
   border: 2px solid #00bf00;
   font-style: italic;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003372}}
 .feedback-text::before {
   content: "";
   display: block;
@@ -359,6 +422,7 @@ section {
   border-top-right-radius: 100px;
   border-bottom: 3px solid white;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003388}}
 .feedback-form {
   font-family: 'ProximaNova_bold', sans-serif;
   padding-left: 8rem;
@@ -368,17 +432,21 @@ section {
   background-color: #ffffff;
   text-align: center;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003389}}
 .feedback-form h3 {
   font-size: 2rem;
   padding: 5rem 3rem 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003393}}
 .feedback-form label {
   top: 20px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003404}}
 .feedback-btn {
   max-width: 30rem;
   margin: auto;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003409}}
 .hand {
   max-width: 16%;
   position: absolute;
@@ -386,36 +454,45 @@ section {
   left: 10rem;
 }
 /*Схема работы*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003417}}
 .scheme {
   background: #ffffff url(../img/scheme/hand2.png) bottom -2rem right no-repeat;
   background-size: 50rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003420}}
 .scheme-block {
   text-align: center;
   min-height: 25rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003424}}
 .scheme .section-header {
   margin-top: 5rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003427}}
 .scheme h3 {
   font-size: 2rem;
   font-family: 'ProximaNova_bold', sans-serif;
 }
 /*Все на 100% включено*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003434}}
 .oll-includ {
   background: #f5f5f5;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003435}}
 .oll-includ h2 {
   padding-top: 4rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003439}}
 .oll-includ .media {
   min-height: 13rem;
   font-size: 1.3rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003441}}
 .oll-includ .media h4 {
   font-family: 'ProximaNova_bold', sans-serif;
   font-size: 1.6rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003448}}
 .circle {
   display: inline-block;
   background-color: #00bf00;
@@ -423,6 +500,7 @@ section {
   height: 100%;
   border-radius: 50%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003454}}
 .circle-border {
   display: inline-block;
   padding: 0.3rem;
@@ -437,30 +515,36 @@ section {
   font-size: 1.9rem;
 }
 /*Мы развеем опасения Problem*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003470}}
 .problems {
   position: relative;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003472}}
 .problems-list {
   border: 4px solid;
   padding: 2rem;
   min-height: 35rem;
   margin-bottom: 2rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003477}}
 .problems-list h4 {
   -webkit-box-flex: 2.1rem;
       -ms-flex: 2.1rem;
           flex: 2.1rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003481}}
 .problems-list ul {
   list-style: none;
   padding-left: 0;
   padding-top: 2rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003485}}
 .problems-list ul li {
   padding-left: 3.5rem;
   position: relative;
   margin-bottom: 3rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003486}}
 .problems-list ul li:before {
   content: "";
   width: 3rem;
@@ -473,27 +557,34 @@ section {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003502}}
 .problems-list_bad {
   border-color: #e8e8e8;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003504}}
 .problems-list_bad h4 {
   color: #e8e8e8;
   opacity: 0.8;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003508}}
 .problems-list_bad ul li:before {
   background: url(../img/problems/cancel.png) no-repeat center;
   background-size: 70%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003514}}
 .problems-list_good {
   border-color: #00bf00;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003515}}
 .problems-list_good h4 {
   font-family: 'ProximaNova_bold', sans-serif;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003519}}
 .problems-list_good ul li:before {
   background: url(../img/problems/check.png) no-repeat center;
   background-size: 70%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003525}}
 .problems-woman {
   position: absolute;
   width: 30rem;
@@ -502,97 +593,121 @@ section {
   margin-left: -18rem;
 }
 /*Блок материалы*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003535}}
 .materials {
   background: url(../img/materials/bg.jpg) center no-repeat;
   background-size: cover;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003538}}
 .materials-link {
   color: #00bf00;
   border-bottom: 1px dotted #00bf00;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003541}}
 .materials-link:hover {
   text-decoration: none;
   color: #008c00;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003546}}
 .materials-slider {
   padding-top: 5rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003549}}
 .materials-offer {
   margin-top: 4rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003552}}
 .materials img {
   display: block;
   margin: 0 auto;
 }
 /*Блок Экскурсия tour*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003559}}
 .tour {
   background: #ffffff url(../img/tour/bg.jpg) center no-repeat;
   background-size: cover;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003562}}
 .tour-subtitle {
   font-size: 2.2rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003565}}
 .tour-btn {
   padding: 1rem 2rem;
 }
 /*Блок "Дополнительные услуги upsell"*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003571}}
 .upsell {
   background: url(../img/upsell/pricesbg.jpg) center no-repeat;
   background-size: cover;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003574}}
 .upsell img {
   display: inline-block;
   margin-bottom: 1rem;
   width: 100%;
   max-width: 30rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003580}}
 .upsell p {
   font-size: 2rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003583}}
 .upsell-block {
   min-height: 30rem;
   text-align: center;
   color: #ffffff;
 }
 /*Блок "Контакты"*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003592}}
 .contacts {
   background: url(../img/footer/bg.jpg) center no-repeat;
   background-size: cover;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003595}}
 .contacts h2 {
   font-family: 'ProximaNova_bold', sans-serif;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003598}}
 .contacts p {
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003602}}
 .contacts-link {
   display: inline-block;
   color: #1a1820;
   border-bottom: 1px dotted #1a1820;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003606}}
 .contacts-link:hover {
   text-decoration: none;
   color: #000000;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003612}}
 .contacts-form h2 {
   font-size: 2rem;
 }
 /*Блок "Footer"*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003619}}
 footer {
   padding: 4rem 0rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003622}}
 footer .footer-contacts {
   text-align: center;
   padding-top: 0.5rem;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003625}}
 footer .footer-contacts p {
   margin: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003630}}
 footer .logo-r {
   text-align: right;
 }
 /*Оформление всплывающих окон*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003636}}
 .popup {
   display: none;
   position: fixed;
@@ -605,6 +720,7 @@ footer .logo-r {
   z-index: 9;
   background-color: rgba(0, 0, 0, 0.5);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003647}}
 .popup-content {
   position: fixed;
   left: 50%;
@@ -615,10 +731,12 @@ footer .logo-r {
   padding: 2rem 5rem;
   text-align: center;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003656}}
 .popup-form {
   margin-top: 3rem;
   padding: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003660}}
 .popup-close {
   position: absolute;
   right: -2rem;
@@ -630,101 +748,131 @@ footer .logo-r {
   font-size: 5rem;
   color: #ffffff;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003671}}
 .popup-header {
   font-family: 'ProximaNova_bold', sans-serif;
 }
 /*@media*/
 @media (max-width: 1190px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003679}}
   .oll-includ .media {
     min-height: 13rem;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003684}}
   .problems-list {
     min-height: 40rem;
   }
 }
 @media (max-width: 991px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003691}}
   .main {
     background-position: top right;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003694}}
   .phone-link {
     text-align: center;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003697}}
   .main-title {
     padding-bottom: 3rem;
     text-align: center;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003701}}
   .main-content {
     margin-top: 3rem;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003705}}
   .price-button {
     text-align: center;
     padding-bottom: 4rem;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003709}}
   .price-header-btn {
     margin-top: 4rem;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003712}}
   .price-block {
     margin-top: 2rem;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003716}}
   .section-header-light {
     margin-bottom: 0;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003721}}
   .feedback-form label {
     top: 0px;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003726}}
   .hand {
     display: none;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003730}}
   .fotorama {
     margin-bottom: 3rem;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003734}}
   .problems-list {
     min-height: auto;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003737}}
   .problems-woman {
     display: none;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003742}}
   .upsell img {
     margin-top: 5rem;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003746}}
   .contacts {
     text-align: center;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003748}}
   .contacts-form {
     margin-top: 3rem;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003752}}
   footer {
     text-align: center;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003754}}
   footer .logo-r {
     display: none;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003759}}
   .footer-contacts {
     margin: 2rem 0;
   }
 }
 @media (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003766}}
   .main {
     background-position: top left;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003769}}
   .header {
     text-align: center;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003772}}
   .wrap-block {
     text-align: center;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003776}}
   .feedback .hand {
     display: none;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003779}}
   .feedback-prev-btn {
     left: 0rem;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003782}}
   .feedback-next-btn {
     right: 0rem;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003786}}
   .scheme {
     background: none;
   }
+  @media -sass-debug-info{filename{font-family:file\:\/\/D\:\/MyClass\/Practice 14\/site\/src\/less\/style\.less}line{font-family:\00003788}}
   .scheme-block {
     min-height: 25rem;
   }
